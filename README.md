@@ -75,6 +75,15 @@ python main.py read json.cfg
     }
 }
  ```
+
+ ```cmd 
+python main.py write config.json --param server.port=100
+ ```
+вывод:
+ ```
+конфиг обновлен
+ ```
+значение порта в config.json с 1000000000 понялось на 100 
 ## используемые модули
 * argparse
 * json
